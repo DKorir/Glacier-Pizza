@@ -85,6 +85,6 @@ $(document).ready(function(){
         var obj2=new CrustType(crust)
         var obj3=new ToppingType(topping)
 
-        $("#shopping").html("<li>"+"Your Pizza size is:- "+obj1.selectPizza+"<br>"+"Your choosen Crust Type is:-"+obj2.selectCrust+"<br>"+object3.selectTopping+ "</li>")
+        $("#shopping").html("<li>"+"Your Pizza size is:- "+obj1.selectPizza+"<br>"+"Your choosen Crust Type is:-"+obj2.selectCrust+"<br>"+"Your Topping selected is:-"+obj3.selectTopping+ "</li>")
     })
 })
