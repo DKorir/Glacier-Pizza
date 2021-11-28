@@ -1,0 +1,21 @@
+.pizza-language{
+    border-style: solid;
+    width:30%
+}
+.pizza-language{
+    padding: .5em;
+    border-radius: 4px;
+    border-color: rgb(177, 117, 117);
+    background-color: salmon;
+}
+.pizza-language h4 p{
+    font-size: 18px;
+}
+.pizza-language h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+.pizza-language p{
+    text-align: center;
+    
+}
