@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+
+.banner-area{
+    background-image: url(./pictures/fatima-akram-uU0Anw-8Vsg-unsplash.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+
+
 .pizza-language{
     border-style: solid;
     width:30%
