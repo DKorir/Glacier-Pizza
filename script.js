@@ -85,6 +85,14 @@ $(document).ready(function(){
         var obj2=new CrustType(crust)
         var obj3=new ToppingType(topping)
 
-        $("#shopping").html("<li>"+"Your Pizza size is:- "+obj1.selectPizza+"<br>"+"Your choosen Crust Type is:-"+obj2.selectCrust+"<br>"+"Your Topping selected is:-"+obj3.selectTopping+"<br>"+"Your Total Bill is:-"+totalBill+ "</li>")
+        $("#shopping").html("<li>"+"Your Pizza size is:- "+obj1.selectPizza+"<br>"+"Your choosen Crust Type is:-"+obj2.selectCrust+"<br>"+"Your Topping selected is:-"+obj3.selectTopping+"<br>"+"Your Total Bill is:-"+totalBill+"<br>"+"<button id='btn-delivery' class='btn btn-danger'>Delivery</button>"+"</li>")
+    })
+    $(document).on("click", "#btn-delivery", function(){
+        var location=prompt("Enter Your Location")
+        if(!location){
+            alert("Kindly input your location!")
+        }else 
+        {alert("Dear esteemed customer your delivery cost is kshs. 450")
+    }
     })
 })
